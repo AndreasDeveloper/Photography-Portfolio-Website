@@ -140,7 +140,7 @@ header {
 
 header .btn {
     position: absolute;
-    left: 43%;
+    left: 45%;
     margin-top: 15px;
 }
 
@@ -214,7 +214,7 @@ header .btn {
 }
 
 .main-nav li a:hover,
-.main-nav li:active {
+.main-nav li:visited {
     border-bottom: 2px solid #7a3a95;
 }
 
@@ -289,7 +289,7 @@ header .btn {
 .ansi-10 img  {
     overflow: hidden;
     max-width: 100%;
-    transition: all 0.3s;
+    transition: all 0.05s;
 }
 
 .ansi-1:hover img,
@@ -372,12 +372,111 @@ header .btn {
 }
 
 /* ------------------------------------------------------------------- */
+/* CONTACT */
+/* ------------------------------------------------------------------- */
+
+.contact-form  {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-contact h2 {
+    margin-right: 18%;
+    margin-bottom: 10%;
+}
+
+.section-contact p {
+    position: absolute;
+    font-size: 110%;
+    margin-left: 15%;
+    bottom: 71%;
+}
+
+.aform {
+    margin-left: 16%;
+    width: 100%;
+}
+
+.anform {
+   margin-left: 37%;
+}
+
+.bform {
+    margin-left: 34%;
+}
+
+.mform {
+    margin-left: 25%;
+}
+
+.msform {
+    margin-left: 35%;
+}
+
+.eform {
+    margin-left: 37%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 50%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    border: 1px solid #7a3a95;
+    color: #7a3a95;
+    background-color: #fff;
+}
+
+input[type=submit]:hover {
+    color: #fff;
+}
+
+textarea {
+    height: 100%;
+}
+
+*:focus {outline: none;}
+
+.section-contact {
+    position: relative;
+    width: 50%;
+    top: 0;
+    left: 60%;
+    background: rgba(244, 244, 244, 0.8);
+    z-index: 10;
+    height: 630px;
+    padding-top: 40px;
+}
+
+.section-contact img {
+    position: absolute;
+    width: 166.45%;
+    right: 100%;
+    bottom: 0.45px;
+    float: left;
+    z-index: 4;
+    background-attachment: fixed;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+
+/* ------------------------------------------------------------------- */
 /* FOOTER */
 /* ------------------------------------------------------------------- */
 
 footer {
     background-color: #333;
     padding: 50px;
+    z-index: 5;
 }
 
 footer p {
@@ -395,7 +494,7 @@ footer p {
     list-style: none;
     float: right;
     left: 80%;
-    top: 598%;
+    top: 673%;
 }
 
 .footer-nav li,
