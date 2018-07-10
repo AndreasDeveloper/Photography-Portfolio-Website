@@ -16,7 +16,6 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
@@ -499,7 +498,7 @@ footer p {
     list-style: none;
     float: right;
     left: 80%;
-    top: 621%;
+    top: 637%;
 }
 
 .footer-nav li,
@@ -564,4 +563,18 @@ footer p {
     font-size: 90%;
     margin-top: 30px;
 }
+
+/* ------------------------------------------------------------------- */
+/* ANIMATIONS */
+/* ------------------------------------------------------------------- */
+
+.js--wp-1 {
+    opacity: 1;
+}
+
+.js--wp-1 .animated {
+    opacity: 0;
+}
+
+
 
