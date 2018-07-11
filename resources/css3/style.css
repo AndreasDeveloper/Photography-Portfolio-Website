@@ -237,7 +237,7 @@ header .btn {
 .right-side {
     width: 50%;
     float: right;
-    background-color: #f5f4f4;
+    background-color: #f4f4f4;
 }
 
 .right-side p {
@@ -532,7 +532,7 @@ footer {
     background-position: center;
     background-attachment: fixed;
     height: 50vh;
-    margin-top: -0.5%;
+    margin-top: -0.4%;
 }
 
 footer .p1 {
@@ -636,11 +636,13 @@ footer p {
 /* ANIMATIONS */
 /* ------------------------------------------------------------------- */
 
-.js--wp-1 {
+.js--wp-1,
+.js--wp-2 {
     opacity: 1;
 }
 
-.js--wp-1 .animated {
+.js--wp-1 .animated,
+.js--wp-2 .animated {
     opacity: 0;
 }
 
